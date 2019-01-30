@@ -44,7 +44,7 @@ def main(argv):
     if folder == '':
         sys.stderr.write("Error: You have to specify a folder name.\n")
         sys.stderr.write('convert.py -f|--folder <folder> [-h|--per_hour]\n')
-        sys.stderr.write('Example: python3 convert.py -f \'example\'\n')
+        sys.stderr.write('Example: ./convert.py -f \'examples/mfus-ubud-id\'\n')
         sys.exit(2)
     
     # Load input csv file
